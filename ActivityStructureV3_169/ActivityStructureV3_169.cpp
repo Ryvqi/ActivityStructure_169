@@ -23,7 +23,7 @@ int main(){
 		cin.getline(mhs[i].nim, 12);
 		cout << "Masukan nama : ";
 		cin.getline(mhs[i].nama, 20);
-		cout << "Alamat : ";
+		cout << "Alamat : " << endl;
 		cout << "\tNama desa : ";
 		cin.getline(mhs[i].alamat.desa, 20);
 		cout << "\nNama kota : ";
@@ -37,8 +37,8 @@ int main(){
 	{
 		cout << "\nNim : " << mhs[i].nim;
 		cout << "\nNama : " << mhs[i].nama;
-		cout << "\nDesa : " << mhs[i].alamat.desa;
-		cout << "\nKota : " << mhs[i].alamat.kota;
-		cout << "\nUmur : " << mhs[i].umur;
+		cout << "\ndesa : " << mhs[i].alamat.desa;
+		cout << "\nkota : " << mhs[i].alamat.kota;
+		cout << "\numur : " << mhs[i].umur;
 	}
 }
